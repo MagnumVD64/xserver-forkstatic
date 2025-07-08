@@ -41,6 +41,7 @@
 #include <X11/extensions/XKBproto.h>
 
 #include "dix/input_priv.h"
+#include "dix/inpututils_priv.h"
 #include "mi/mi_priv.h"
 #include "os/bug_priv.h"
 #include "Xext/panoramiX.h"
@@ -56,7 +57,6 @@
 #include "mipointer.h"
 #include "eventstr.h"
 #include "eventconvert.h"
-#include "inpututils.h"
 #include "windowstr.h"
 
 #include "xkbsrv.h"
